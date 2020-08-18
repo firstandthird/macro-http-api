@@ -39,7 +39,7 @@ module.exports = function http(arc, cfn) {
     cfn.Resources.GetStatic = JSON.parse(copy)
 
     // point to dist
-    let local = join(__dirname, '..', '..', 'node_modules', '@architect', 'http-proxy', 'dist')
+    let local = join(__dirname, '..', '..', 'node_modules', '@firstandthird', 'http-proxy', 'dist')
     let global = join(process.cwd(), 'node_modules', 'firstandthird', 'http-proxy', 'dist')
     let code = existsSync(local)? local : existsSync(global)? global : false
     if (!code) throw ReferenceError('cannot find architect/http proxy')
