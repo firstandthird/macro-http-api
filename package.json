@@ -4,7 +4,7 @@
   "description": "use http apis instead of rest apis with api gateway",
   "main": "src/macros/http.js",
   "dependencies": {
-    "@architect/http-proxy": "^3.8.0",
+    "@firstandthird/http-proxy": "3.12.4-beta1",
     "@architect/utils": "^1.5.2"
   },
   "scripts": {
