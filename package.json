@@ -1,6 +1,6 @@
 {
   "name": "@firstandthird/macro-http-api",
-  "version": "1.0.1-beta1",
+  "version": "1.0.1-beta2",
   "description": "use http apis instead of rest apis with api gateway",
   "main": "src/macros/http.js",
   "dependencies": {
